@@ -14,35 +14,40 @@
  limitations under the License.
  */
 
-#import <QuartzCore/QuartzCore.h>
+#import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
 
-#import "MDMTimingCurve.h"
+#import "MotionInterchange/MDMMotionCurve.h"
+#import "MotionInterchange/MDMMotionRepetition.h"
 
 API_DEPRECATED_BEGIN("Use standard UIKit/CALayer animation APIs instead.",
                      ios(12, API_TO_BE_DEPRECATED))
 
-// A CAMediaTimingFunction is a timing curve - we simply define its conformity to our protocol here.
-@interface CAMediaTimingFunction () <MDMTimingCurve>
-@end
-
-@interface CAMediaTimingFunction (MotionInterchangeExtension)
-
 /**
- Returns a instance of the timing function with its control points reversed.
+ A representation of timing for an animation.
  */
-- (nonnull CAMediaTimingFunction *)mdm_reversed;
+struct MDMMotionTiming {
+  /**
+   The amount of time, in seconds, before this animation's value interpolation should begin.
+   */
+  CFTimeInterval delay;
 
-/**
- Returns the first control point of the timing function.
- */
-@property(nonatomic, assign, readonly) CGPoint mdm_point1;
+  /**
+   The amount of time, in seconds, over which this animation should interpolate between its values.
+   */
+  CFTimeInterval duration;
 
-/**
- Returns the second control point of the timing function.
- */
-@property(nonatomic, assign, readonly) CGPoint mdm_point2;
+  /**
+   The velocity and acceleration of the animation over time.
+   */
+  MDMMotionCurve curve;
 
-@end
+  /**
+   The repetition characteristics of the animation.
+   */
+  MDMMotionRepetition repetition;
+
+} NS_SWIFT_NAME(MotionTiming);
+typedef struct MDMMotionTiming MDMMotionTiming;
 
 API_DEPRECATED_END

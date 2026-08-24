@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-#import "MDMSpringTimingCurve.h"
+#import "MotionInterchange/MDMSpringTimingCurve.h"
 
 @implementation MDMSpringTimingCurve
 

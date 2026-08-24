@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-#import "CAMediaTimingFunction+MDMTimingCurve.h"
+#import "MotionInterchange/CAMediaTimingFunction+MDMTimingCurve.h"
 
 @implementation CAMediaTimingFunction (MotionInterchangeExtension)
 

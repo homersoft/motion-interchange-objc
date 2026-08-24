@@ -14,12 +14,12 @@
  limitations under the License.
  */
 
-#import "MDMAnimationTraits.h"
+#import "MotionInterchange/MDMAnimationTraits.h"
 
-#import "CAMediaTimingFunction+MDMTimingCurve.h"
-#import "MDMRepetition.h"
-#import "MDMRepetitionOverTime.h"
-#import "MDMSpringTimingCurve.h"
+#import "MotionInterchange/CAMediaTimingFunction+MDMTimingCurve.h"
+#import "MotionInterchange/MDMRepetition.h"
+#import "MotionInterchange/MDMRepetitionOverTime.h"
+#import "MotionInterchange/MDMSpringTimingCurve.h"
 
 @implementation MDMAnimationTraits
 

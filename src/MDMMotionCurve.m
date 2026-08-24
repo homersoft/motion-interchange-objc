@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-#import "MDMMotionCurve.h"
+#import "MotionInterchange/MDMMotionCurve.h"
 
 MDMMotionCurve MDMMotionCurveMakeBezier(CGFloat p1x, CGFloat p1y, CGFloat p2x, CGFloat p2y) {
   return _MDMBezier(p1x, p1y, p2x, p2y);

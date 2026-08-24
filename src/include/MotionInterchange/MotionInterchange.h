@@ -15,16 +15,16 @@
  */
 
 // V2 APIs
-#import "CAMediaTimingFunction+MDMTimingCurve.h"
-#import "MDMAnimationTraits.h"
-#import "MDMRepetitionTraits.h"
-#import "MDMRepetition.h"
-#import "MDMRepetitionOverTime.h"
-#import "MDMTimingCurve.h"
-#import "MDMSpringTimingCurve.h"
-#import "MDMSpringTimingCurveGenerator.h"
+#import "MotionInterchange/CAMediaTimingFunction+MDMTimingCurve.h"
+#import "MotionInterchange/MDMAnimationTraits.h"
+#import "MotionInterchange/MDMRepetitionTraits.h"
+#import "MotionInterchange/MDMRepetition.h"
+#import "MotionInterchange/MDMRepetitionOverTime.h"
+#import "MotionInterchange/MDMTimingCurve.h"
+#import "MotionInterchange/MDMSpringTimingCurve.h"
+#import "MotionInterchange/MDMSpringTimingCurveGenerator.h"
 
 // V1 APIs
-#import "MDMMotionCurve.h"
-#import "MDMMotionRepetition.h"
-#import "MDMMotionTiming.h"
+#import "MotionInterchange/MDMMotionCurve.h"
+#import "MotionInterchange/MDMMotionRepetition.h"
+#import "MotionInterchange/MDMMotionTiming.h"
