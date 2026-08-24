@@ -16,7 +16,7 @@ let package = Package(
         .target(
             name: "MotionInterchange",
             path: "src",
-            publicHeadersPath: "."
+            publicHeadersPath: "include"
         )
     ]
 )

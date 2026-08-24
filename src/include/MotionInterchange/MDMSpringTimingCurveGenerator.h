@@ -17,8 +17,8 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
 
-#import "MDMSubclassingRestricted.h"
-#import "MDMTimingCurve.h"
+#import "MotionInterchange/MDMSubclassingRestricted.h"
+#import "MotionInterchange/MDMTimingCurve.h"
 
 API_DEPRECATED_BEGIN("Use standard UIKit/CALayer animation APIs instead.",
                      ios(12, API_TO_BE_DEPRECATED))

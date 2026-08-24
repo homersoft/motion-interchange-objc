@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-#import "MDMRepetition.h"
+#import "MotionInterchange/MDMRepetition.h"
 
 @implementation MDMRepetition
 

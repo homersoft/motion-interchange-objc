@@ -16,8 +16,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MDMRepetitionTraits.h"
-#import "MDMSubclassingRestricted.h"
+#import "MotionInterchange/MDMRepetitionTraits.h"
+#import "MotionInterchange/MDMSubclassingRestricted.h"
 
 API_DEPRECATED_BEGIN("Use standard UIKit/CALayer animation APIs instead.",
                      ios(12, API_TO_BE_DEPRECATED))

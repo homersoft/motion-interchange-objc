@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
-#import "MDMRepetitionOverTime.h"
+#import "MotionInterchange/MDMRepetitionOverTime.h"
 
 @implementation MDMRepetitionOverTime
 

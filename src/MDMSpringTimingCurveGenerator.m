@@ -14,9 +14,9 @@
  limitations under the License.
  */
 
-#import "MDMSpringTimingCurveGenerator.h"
+#import "MotionInterchange/MDMSpringTimingCurveGenerator.h"
 
-#import "MDMSpringTimingCurve.h"
+#import "MotionInterchange/MDMSpringTimingCurve.h"
 
 #import <UIKit/UIKit.h>
 
